@@ -1,4 +1,4 @@
-.
+
 import React from 'react';
 import AddressForm from './components/AddressForm';
 import './index.css';
