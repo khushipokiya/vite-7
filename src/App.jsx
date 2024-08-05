@@ -1,7 +1,7 @@
-// App.js
+.
 import React from 'react';
 import AddressForm from './components/AddressForm';
-import './index.css'; // Make sure Tailwind CSS is imported here
+import './index.css';
 
 const App = () => {
   return (
