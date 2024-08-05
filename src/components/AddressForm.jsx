@@ -1,10 +1,10 @@
-// AddressForm.js
+
 import React from 'react';
 import { Formik, Field, Form, FieldArray, ErrorMessage } from 'formik';
 import { validationSchema } from './Validationschema';
 
-// Initial values
-const initialValues = { 
+
+const initialValues = {
   name: '',
   email: '',
   addresses: [
@@ -16,7 +16,6 @@ const initialValues = {
   ]
 };
 
-// AddressForm Component
 const AddressForm = () => {
   return (
     <div className="max-w-4xl mx-auto p-8 bg-gray-50 shadow-lg rounded-xl">
@@ -104,10 +103,10 @@ const AddressForm = () => {
                             className="text-red-600 text-sm mt-1"
                           />
                         </div>
-                        
+
                       </div>
                     ))}
-                 
+
                 </>
               )}
             </FieldArray>
